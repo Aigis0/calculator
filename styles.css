@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #023047;
+  }
+  
+  .calculator {
+    border: 5px solid #023047;
+    padding: 25px;
+    background-color: #30638E;
+    border-radius: 25px;
+    text-align: center;
+  }
+  
+  #result {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #023047;
+    padding: 5px;
+    font-size: 24px;
+    text-align: right;
+  }
+
+  /*number design (.,0,1,2,3,4,5,6,7,8,9)*/
+  #num {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #003D5B;
+    border: 1px solid #023047;
+    border-radius: 50px;
+    color: #ffffff;
+  }
+  #num:hover {
+    background-color: #ffffff;
+    color: #003D5B;
+  }
+  
+  #num:active {
+    background-color: #ffffff;
+    color: #FB8500;
+  }
+
+ 
+
+  /*signs design (c,<,%,/,*,-,+,=)*/
+  #sign{
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #FB8500;
+    border: 1px solid #023047;
+    border-radius: 50px;
+    color: #fff;
+
+  }
+  
+  #sign:hover {
+    background-color: #fff;
+    color: #FB8500;
+  }
+  
+  #sign:active {
+    background-color: #ffffff;
+    color: #003D5B;
+  }
+ 
+  
+  
